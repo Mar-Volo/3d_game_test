@@ -11,6 +11,10 @@
   @media (max-width: 1314px) {
     justify-content: space-between;
   }
+  @media (orientation: landscape) and (max-width: 1199px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .first-screen__title-box {
   display: flex;
@@ -42,6 +46,10 @@
   @media (min-width: 1200px) {
     width: 780px;
   }
+  @media (orientation: landscape) and (max-width: 1199px) {
+    width: 430px;
+    padding: 10px 10px;
+  }
 }
 .first-screen__advice {
   text-align: center;
@@ -56,6 +64,10 @@
   @media (min-width: 1200px) {
     font-size: 36px;
     line-height: calc(36 / 36);
+  }
+  @media (orientation: landscape) and (max-width: 1199px) {
+    font-size: 20px;
+    line-height: 1;
   }
 }
 .first-screen__title {
@@ -92,6 +104,11 @@
     font-size: 84px;
     line-height: calc(101 / 84);
   }
+  @media (orientation: landscape) and (max-width: 1199px) {
+    font-size: 40px;
+    line-height: calc(45 / 40);
+    margin-bottom: 30px;
+  }
 }
 .first-screen__discription {
   font-weight: 700;
@@ -115,6 +132,12 @@
   }
   @media (min-width: 1200px) {
     width: 1100px;
+  }
+  @media (orientation: landscape) and (max-width: 1199px) {
+    font-size: 20px;
+    line-height: calc(22 / 20);
+    margin-bottom: 0;
+    width: 600px;
   }
 }
 .first-screen__list {
@@ -148,6 +171,9 @@
       width: 521px;
       left: 0px;
     }
+    @media (orientation: landscape) and (max-width: 1199px) {
+      width: 244px;
+    }
   }
   &--right {
     @media (max-width: 767px) {
@@ -161,6 +187,9 @@
     @media (min-width: 1200px) {
       width: 671px;
       right: 22px;
+    }
+    @media (orientation: landscape) and (max-width: 1199px) {
+      width: 334px;
     }
   }
 }

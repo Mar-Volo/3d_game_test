@@ -57,4 +57,7 @@ img {
   @media (max-width: 767px) {
     padding: 0 5px;
   }
+  @media (orientation: landscape) and (max-width: 1199px) {
+    padding: 0;
+  }
 }
