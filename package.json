@@ -1,0 +1,19 @@
+{
+  "name": "3d_game_test",
+  "private": true,
+  "homepage": "https://Mar-Volo.github.io/3d_game_test/",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1",
+    "sass": "^1.78.0"
+  }
+}

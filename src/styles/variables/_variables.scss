@@ -1,0 +1,21 @@
+:root {
+  /* bg-colors */
+  --backdrop-bg-cl: rgba(255, 255, 255, 0.2);
+  --sound-btn-bg-cl: #ec1119;
+  /* txt-colors */
+  --default-txt-cl: #fff;
+  --main-txt-cl: #fff2ce;
+  /* shadows */
+  --btn-box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4);
+  --txt-shadow: 0px 4px 20px rgba(255, 213, 54, 0.5);
+  --icon-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* accent shadows */
+  --btn-accent-shadow: inset 8px 8px 10px rgba(0, 0, 0, 0.4);
+  --icon-btn-accent-shadow: inset 4px -4px 8px rgba(0, 0, 0, 0.25),
+    inset -4px 4px 8px rgba(0, 0, 0, 0.25);
+  /* border */
+  --default-border: 1px solid #ffffff;
+  /* transitions */
+  --default-transition: 250ms ease-out;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,60 @@
+html {
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nirmala UI", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/bg_img/bg_img.jpg");
+  @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    background-image: url("../images/bg_img/bg_img@2x.jpg");
+  }
+}
+.screens-box {
+  transition: var(--default-transition);
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.screen {
+  padding: 0 15px;
+  @media (max-width: 767px) {
+    padding: 0 5px;
+  }
+}
